@@ -1,13 +1,16 @@
+/* The code below sets the default of the entire page. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Backgroun color for the body. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Gives the header some space, sets the font and backup fonts, gives a background color and text color. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Makes the header h1 parts sit inline rather than taking up the whole width, and sets font size. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Header elements that are h1 in the title that says Horiseon will be a different color. */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Makes the naviagtion elements go to the right and sets their font/font size and gives them space. */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* Header elements in the top right that are an unordered list wont have any special features, e.g. no bullet points. */
 .header nav ul {
     list-style-type: none;
 }
 
+/* Makes sure the naviation parts sit side by side and dont create a new row. */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Makes sure the links don't have a purple coloration. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets the font size of all paragraph elements. */
 p {
     font-size: 16px;
 }
 
+/* Gives the main photo it's size and spacing from elements beneath it, and makes sure it goes all the way across the screen. */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* Makes the article element pictures align properly to the left. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Makes the article element pictures align properly to the right. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Gives the content less space so there is room for the asides and puts space between itself and the left hand side of the page. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Pulls the asides to the right and spaces them out from elements on three sides and the border to the right, sets fonts and sets background color. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,22 +101,26 @@ p {
     background-color: #2589bd;
 }
 
+/* Makes the aside elements have space and sets the color of the text. */
 .benefitaside {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Sets the larger text within the asides to be centered and have space between themselves and the bottom of the container. */
 .benefitaside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Sets the images to take up all their space, gives margins and puts a cap on the maxiumum width of the image. */
 .benefitaside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* For the three articles, here we set spacing around the elements and their containers, set their height, font, text and background color. */
 .articles {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,15 +130,18 @@ p {
     color: #ffffff;
 }
 
+/* This limits the height of the articles images. */
 .articles img {
     max-height: 200px;
 }
 
+/* This gives font size to the larger text within the articles and puts space beneath them. */
 .articles h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* This code takes care of the footer text, aligns the text to the center, puts padding, and control the flow next to floated elements.*/
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +149,7 @@ p {
     text-align: center;
 }
 
+/* Sets the larger footer text size. */
 .footer h4 {
     font-size: 20px;
 }
